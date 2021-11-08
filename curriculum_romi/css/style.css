@@ -5,7 +5,26 @@ header{
     background-color: #F8F8FF
 }
 
+.banner{
+    background-color: #9aadb4;
+    background-size: cover;
+    margin-bottom: 15px;
+}
 
+.foto {
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acercaDeMi {
+height: 30px;
+width: 120;
+
+
+
+}
 
 .texto-resaltado{
     font-weight: bold;
@@ -27,19 +46,5 @@ h1{
 
 
 
-display: flex;
-    align-items: center;
-    background-color: #005677;
-    color: #C4C4C4;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    justify-content: center;
-    align-items:center
 
-    img {
-        border-radius: 8px;
-        display: block;
-        margin: auto;
-        }
+    
