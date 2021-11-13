@@ -1,0 +1,40 @@
+
+*{
+    padding: 0;
+    margin: 10;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+section{
+    margin:20px
+}
+.banner{
+    background-image: url(../img/lemon-pie\ 1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 350px;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800px;
+}
+
+p {
+    display: block;
+    margin: 70px;;
+}
+h2{
+    font-size: 2em;
+
+}
+ul{
+    list-style-type: disc;
+}
