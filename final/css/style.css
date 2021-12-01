@@ -1,0 +1,504 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-principal: rgb(242, 95, 58);
+  --color-secundario: rgb(35, 44, 81);
+  --color-texto: rgba(179, 178, 183, 1);
+  --color-footer: rgb(29, 30, 37);
+  --color-buttonhover: rgba(242, 95, 58, 0.5);
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+header {
+  padding: 40px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+}
+
+header i {
+  font-size: 24px;
+  position: relative;
+  top: -5px;
+}
+
+header .boton {
+  display: none;
+}
+
+.navbar nav {
+  display: none;
+}
+
+
+.boton {
+  background-color:var(--color-principal);
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 12px 30px;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  border-color: transparent;
+  transition: all 0.5s;
+}
+
+.boton:hover {
+  background-color: var(--color-buttonhover);
+  cursor: pointer;
+}
+
+/*main*/
+
+/* primera seccion */
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px 0px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.texto h2 {
+  font-size: 39px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  color:var(--color-secundario);
+  letter-spacing: -0.035em;
+  padding-bottom: 20px;
+  font-weight: 500;
+  
+  
+}
+
+.texto p {
+  font-size: 15px;
+  color:var(--color-texto);
+  padding-bottom: 28px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.graficos img {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+.presentacion button {
+  display: flex;
+  margin: auto;
+  padding-top: 10px;
+}
+
+/* segunda seccion */
+
+.segundo-contenedor {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
+  margin: auto;
+}
+
+.texto-pregunta h3 {
+  font-size: 30px;
+  line-height: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-secundario);
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 20px;
+  padding-top: 90px;
+}
+
+.texto-pregunta p {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 28px;
+  text-align: center;
+  color: var(--color-texto);
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  
+}
+
+.lista dt {
+  background-color: rgb(255,239,234);
+  color:var(--color-secundario);
+  font-size: 16px;
+  line-height: 23px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+.lista dd {
+  color: var(--color-texto);
+  font-size: 15px;
+  line-height: 26px;
+  padding-bottom: 42px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  
+}
+
+.lista span {
+  background-color: var(--color-principal);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 30px;
+  font-weight: normal;
+  margin-right: 8px;
+  
+}
+
+/* tercera seccion */
+
+.perfiles {
+  padding-bottom: 0px;
+}
+
+.perfiles h3 {
+  font-size: 30px;
+  color: var(--color-secundario);
+  font-weight: 700;
+  line-height: 61px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.card {
+  background-color: #fafafa;
+  position: relative;
+  margin: 0 20px 80px;
+  text-align: center;
+}
+
+.caja h4 {
+  text-align: center;
+  font-size: 16px;
+  color: var(--color-secundario);
+  padding-bottom: 21px;
+}
+
+.caja p {
+  color: var(--color-texto);
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  line-height: 25px;
+}
+
+.foto {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -50px;
+}
+
+.perfiles button {
+  display: flex;
+  margin: auto;
+  padding-top: 10px;
+}
+
+/*cuarta seccion*/
+
+.texto-final {
+  position: relative;
+  background-color: var(--color-principal);
+  text-align: center;
+  padding: 70px 60px;
+  margin-top:40px ;
+}
+
+.texto-final h2 {
+  margin-top: 30px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.texto-final .boton {
+  background-color: #ffffff;
+  color: var(--color-principal);
+}
+
+.texto-final .boton:hover{
+  color: var(--color-buttonhover);
+  cursor: pointer;
+}
+
+/*footer*/
+
+footer {
+  background-color: #1e1e26;
+  position: relative;
+  padding: 45px 30px 30px;
+}
+
+form {
+  position: relative;
+}
+
+.nav-footer {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.nav-footer ul {
+  list-style-type: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.nav-footer ul li a{
+  color: #ffffff;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+
+.nav-footer ul li a:hover {
+  color: var(--color-principal);
+  cursor: pointer;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  padding: 0 40px 30px;
+  gap: 40px;
+}
+
+.redes i {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.logo-footer {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.derechos-reservados {
+  color: var(--color-texto);
+  font-size: 12px;
+  text-align: center;
+}
+
+.formulario input:invalid {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+input {
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+
+
+@media (min-width: 1440px) {
+  .presentacion,
+  .segundo-contenedor,
+  .perfiles,
+  header {
+    width: 1440px;
+    margin: auto;
+  }
+
+  .navbar nav {
+    display: block;
+  }
+
+  .navbar nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 28px;
+  }
+
+  .navbar i {
+    display: none;
+  }
+
+ 
+
+  header .boton {
+    display: block;
+  }
+
+  header {
+    padding: 65px 165px 0px 165px;
+    align-items: center;
+  }
+
+  .presentacion,
+  .segundo-contenedor {
+    padding: 147px 165px 0 165px;
+  }
+
+  .presentacion {
+    flex-direction: row-reverse;
+  }
+
+  .presentacion .boton {
+    margin: 0;
+  }
+
+  .graficos {
+    width: 100%;
+  }
+
+  .texto h2 {
+    padding-right: 130px;
+    text-align: left;
+    font-size: 58px;
+    line-height: 66.47px;
+    color: var(--color-secundario)
+
+  }
+
+  .texto p {
+    padding-right: 235px;
+    text-align: left;
+    color: var(--color-secundario);
+  }
+
+  .segundo-contenedor {
+    flex-direction: row;
+  }
+
+  .segundo-contenedor .texto-pregunta{
+    padding-right: 40px;
+  }
+ 
+  .texto-pregunta h3{
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 33px;
+    color: var(--color-secundario);
+  }
+
+  .texto-pregunta p{
+    color: var(--color-secundario);
+    padding-left: 0px;
+    padding-right: 60px;
+    text-align: left;
+  }
+
+  .segundo-contenedor .lista{
+    margin-left: 125px;
+  }
+
+  .lista .boton {
+    margin-right: 20px;
+   
+  }
+  
+  .lista dt{
+    background-color: #ffffff;
+   
+  }
+
+  .lista dd {
+    line-height: 26px;
+    padding-left: 100px;
+  }
+
+  .texto-pregunta {
+    padding-right: 150px;
+  }
+
+  
+  .perfiles h3{
+    padding-top: 5px;
+  }
+
+  .perfiles-card {
+    padding-top: 74px;
+    display: flex;
+  }
+
+  
+
+  .perfiles .boton {
+    margin-bottom: 180px;
+  }
+
+
+  .texto-final {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 165px;
+  }
+
+  .texto-final h2 {
+    font-size: 40px;
+    width: 500px;
+    text-align: left;
+    
+  }
+
+  footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 300px;
+  }
+
+  .logo-footer {
+    padding-top:65px;
+    order: 0;
+  }
+
+  .redes {
+    order: 1;
+    
+  }
+
+  .nav-footer {
+    order: 2;
+  }
+
+  .formulario {
+    padding-top: 45px;
+    padding-left: 80px;
+    order: 3;
+  }
+
+  .derechos-reservados {
+    order: 4;
+    padding-bottom: 30px;
+  }
+}
