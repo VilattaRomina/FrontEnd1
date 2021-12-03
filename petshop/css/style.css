@@ -1,0 +1,300 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.barra-inicial{
+   background-color: #222222; 
+   padding: 4px 60px 4px 90px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.ofertas{
+    font-size: 10px;
+    font-weight: 400;
+    color: #f3f3f3;
+}
+
+.idioma{
+    font-size: 10px;
+    font-weight: 400;
+    color: #f3f3f3;
+}
+
+.menu{
+    background-color: #F0A83E;
+    padding: 26px 40px 26px 41px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 166px;
+    height: 23px;
+}
+
+.categoria{
+    display:flex;
+}
+
+.nombre{
+    padding-right: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.banner{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size:cover;
+    height: 409px;
+    position: relative;
+}
+
+.banner-texto{
+    position: absolute;
+    left: 648px;
+    top:156px;
+}
+
+.texto1{
+    background-color:#ffffff ;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.texto2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #3c2313;
+    padding-top:12px;
+    padding-bottom: 12px;
+}
+
+.boton{
+    background-color: #f0a83e;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 23px;
+    display: block; /* al ser un elemento de linea por defecto tiene la propiedad inline-block */
+    text-decoration: none;
+    width: 141px;
+}
+.productos-destacados{
+   margin: auto;
+   width: 500px;
+   text-align: center;
+}
+
+.huella{
+    width: 67px;
+    padding-top: 25px ;
+
+}
+
+.productos{
+    font-size: 40px;
+    font-weight: 700;
+    color: #3C2313;
+    padding-top: 9px;
+}
+
+.opciones{
+  display: flex;  
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.tipo{
+    padding-right: 31px ;
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding: 49px;
+}
+
+.imagen{
+    display: block;
+}
+
+.nombre-producto {
+    background-color: #FBFAF6;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.precio {
+color:#F0A83E;
+}
+
+.formulario{
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+
+.contactanos{
+    font-size: 25px;
+    font-weight: 700;
+    color: #3c2313;
+    padding-top: 78px;
+    padding-bottom: 20px;
+}
+
+.datos {
+    background-color:#3C2313;
+    width: 340px;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 400;
+   border-radius: 15px;
+   padding: 15px 0 14px 14.1px;
+   margin: 10px;
+   text-align: left;
+}
+
+
+
+.envio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+ .reset{
+    background-color: #8A8787;
+    width: 100px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+   border-radius: 15px;
+   padding: 8px 25px 7px 22px;
+   margin: 10px;
+   text-align: left;
+   text-decoration: none;
+}
+
+
+.send{
+    background-color:#F0A83E;
+    width: 100px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 15px;
+    padding: 8px 25px 7px 22px;
+     margin: 10px;
+     text-decoration: none;
+}
+
+.suscribete{
+    background-color:#F0A83E;
+    padding: 20px 57px 17px 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .novedades{
+    font-size: 20px;
+    font-weight: 700;
+    color: #f3f3f3;
+    display: flex;
+ }
+
+ .novedades img{
+     width: 34px;
+     Height: 20px;
+     margin-right: 10px;
+ }
+
+
+.email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+ .ingresar{
+    background-color: #ffffff;
+    width: 271px;
+    color: #A0A0A0;
+    font-size: 9px;
+    font-weight: 400;
+   border-radius: 15px;
+   padding: 14px 148px 15px 8px;
+   margin-right: 5px;
+   
+}
+
+
+.botonSus{
+    background-color: #3C2313;
+    width: 70px;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 400;
+    border-radius: 15px;
+    padding: 12px 10px 11px 11px;
+}
+
+.datos-contacto{
+    background-color:#3c2313;
+    position: relative;
+ }
+
+
+ .icono{
+     width: 100px;
+    height: 100px; 
+    padding: 20px 25px 20px 70px;
+    display: flex;
+ }
+
+ .texto h4{
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-left: 20px;
+ }
+
+ .texto p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    color: #8A8787;
+    padding-left: 20px;
+
+ }
+
+ .logo-footer{
+     position: absolute;
+     bottom: 128px;
+     left: 800px;
+     width: 166px;
+ }
+
+ .final p{
+     background-color: #222222;
+     color: #FFFFFF;
+     font-size: 10px;
+     padding: 4px 41px;
+     display: flex;
+    justify-content: center
+ }
